@@ -20,7 +20,7 @@ module.exports = passport => {
         .then(user => {
           if (user) {
             // user found
-            return done(null, user);
+            return done(null, user); // puts user into req.user
           }
           // user not found
           return done(null, false);
