@@ -97,7 +97,7 @@ router.post("/login", (req, res) => {
           keys.secretOrKey,
           { expiresIn: 3600 },
           (err, encoded) => {
-            res.json({ success: true, token: "Bearer " + encoded });
+            res.json({ success: true, token: "Bearer " + encoded }); // 200 OK => token
           }
         );
       } else {
