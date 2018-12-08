@@ -1,4 +1,5 @@
-DevConnector2: a social network for developers
+#DevConnector2
+A social network for developers
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -16,10 +17,10 @@ You will also see any lint errors in the console.
 
 ~
 
-Adding github remote
+## Adding github remote
 
-# git remote add origin git@github.com:pzyktzle/devconnector2.git
+### `git remote add origin git@github.com:pzyktzle/devconnector2.git`
 
-Pushing from local to github
+## Pushing from local to github
 
-# git push -u origin master
+### `git push -u origin master`
