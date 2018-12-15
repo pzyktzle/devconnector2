@@ -20,6 +20,13 @@ class Profile extends Component {
     }
   }
 
+  componentWillReceiveProps(nextProps) {
+    // if no profile, redirect to not found page
+    if (nextProps.profile.profile === null && this.props.profile.loading) {
+      this.props.history.push("/not-found");
+    }
+  }
+
   render() {
     const { profile, loading } = this.props.profile;
     let profileContent;

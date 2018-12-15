@@ -25,3 +25,7 @@ You will also see any lint errors in the console.
 ## Pushing from local to github
 
 ### `git push -u origin master`
+
+## Pushing from local to heroku
+
+### `git push heroku master`
